@@ -1,16 +1,35 @@
-# React + Vite
+# 🎓 Student Result Analytics Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📝 Project Overview
+The **Student Result Analytics Portal** is a sophisticated, single-page web application developed using **React.js**. It is designed to streamline the academic evaluation process by providing students and educators with an instantaneous, data-driven breakdown of semester performance. Moving beyond a simple form, this tool serves as a comprehensive performance dashboard that transforms raw marks into actionable academic insights.
 
-Currently, two official plugins are available:
+### 🎯 Core Objectives
+The primary goal of this assessment was to demonstrate mastery over **React State Management** and **Dynamic UI Rendering**. By utilizing a "Controlled Component" approach, the application captures user input across seven diverse subjects, processes the data through mathematical logic, and triggers a seamless transition from the input interface to a high-fidelity results dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🛠️ Key Technical Features
+* **Reactive Data Handling:** Employs the `useState` hook to manage an object-based data structure, ensuring efficient updates without unnecessary re-renders.
+* **Intelligent Analytics:** Calculates weighted averages and assigns grades based on a strict academic hierarchy (A+ to F).
+* **Performance Visualization:** Features a custom SVG-based **Circular Progress Ring** that updates in real-time to match the student's percentage.
+* **Automated Insights:** Identifies the user's "Star Subject" (highest score) and generates a status-specific badge (e.g., "Promoted" vs "Academic Probation").
 
-## React Compiler
+### 🎨 UI/UX Philosophy
+The application follows a **Modern Arctic Aesthetic**, utilizing a bright, high-contrast palette of Indigo and Slate.
+* **Neumorphic Depth:** Subtle shadows and 32px rounded corners create a premium "App-like" feel.
+* **Responsive Architecture:** A dual-pane grid layout optimized for all screen sizes.
+* **Interactive Feedback:** Input fields feature active focus states and smooth transitions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚀 Installation & Setup
+1. Clone the repo: `git clone https://github.com/your-username/repo-name.git`
+2. Install dependencies: `npm install`
+3. Run the app: `npm run dev`
 
-## Expanding the ESLint configuration
+### 📊 Grading Scale
+| Average Score | Grade | Status |
+| :--- | :--- | :--- |
+| **80% - 100%** | **A+** | Promoted |
+| **60% - 79%** | **B** | Promoted |
+| **40% - 59%** | **C** | Promoted |
+| **Below 40%** | **F** | Probation |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+**Developed by Sanjay**
